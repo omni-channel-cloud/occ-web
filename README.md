@@ -26,10 +26,10 @@ $ npm run dev
 ```
 xx-webapp
 ├── package.json
-├── ucf-apps         # 按应用模块划分的子应用模块
-├── ucf-common       # 项目级公共资源：图标字体、公共业务组件、工具方法、配置文件、常量等
-├── ucf-public       # 构建出的最终静态资源，可对接集成部署
-└── ucf.config.js    # 项目配置文件，默认好用，无需配置
+├── occ-apps         # 按应用模块划分的子应用模块
+├── occ-common       # 项目级公共资源：图标字体、公共业务组件、工具方法、配置文件、常量等
+├── occ-public       # 构建出的最终静态资源，可对接集成部署
+└── occ.config.js    # 项目配置文件，默认好用，无需配置
 ```
 
 occ-apps 下的三类微应用：
