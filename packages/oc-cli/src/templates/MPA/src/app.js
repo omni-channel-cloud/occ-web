@@ -26,5 +26,5 @@ render(<Intl>
         </IntlProvider>
     </Intl>, document.querySelector("#app"));
 <% }else{ %>
-render(<App />, document.querySelector("#app"));
+render(<HocApp />, document.querySelector("#app"));
 <% } %>
