@@ -1,7 +1,7 @@
 {
   "name": "oc-cli",
   "preferGlobal": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple init for OCC scaffolding  projects. base OCS-cli",
   "bin": {
     "oc-cli": "./bin/oc-cli",
