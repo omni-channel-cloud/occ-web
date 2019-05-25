@@ -11,6 +11,8 @@ import { IntlProvider } from 'react-intl';
 import Intl from 'components/Intl';
 <% } %>
 import App from "./container";
+import OccExtendsHOC from 'components/OccExtendsHOC';
+const HocApp = OccExtendsHOC(App);
 
 import 'occ-common/styles/occ-tinper-bee.css';
 import 'occ-common/styles/public.less';
@@ -20,7 +22,7 @@ import './app.less';
 <% if(isI18n){ %>
 render(<Intl>
         <IntlProvider>
-            <App />
+            <HocApp />
         </IntlProvider>
     </Intl>, document.querySelector("#app"));
 <% }else{ %>
