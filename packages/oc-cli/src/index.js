@@ -12,7 +12,7 @@ const getAutoUpdate = require('./getAutoUpdate');
 
 //第一时间检测是否有最新版本给出提升自行升级或者是热更新模板
 
-getAutoUpdate();
+// getAutoUpdate();
 
 
 function getHelp() {

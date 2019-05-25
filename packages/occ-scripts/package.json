@@ -1,6 +1,6 @@
 {
   "name": "occ-scripts",
-  "version": "1.1.7",
+  "version": "0.0.1",
   "description": "development  and build services of OCC project",
   "main": "index.js",
   "bin": {
