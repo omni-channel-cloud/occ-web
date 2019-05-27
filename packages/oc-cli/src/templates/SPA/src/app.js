@@ -10,7 +10,7 @@ import Intl from 'components/Intl';
 <% } %>
 import Routes from './routes';
 // 组件库样式
-import 'tinper-bee/assets/occ-tinper-bee.css';
+import 'tinper-bee/assets/tinper-bee.css';
 // 全局样式
 import './app.less';
 
